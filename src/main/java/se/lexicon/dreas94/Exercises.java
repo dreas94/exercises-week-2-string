@@ -59,7 +59,7 @@ public class Exercises
     public void exercise7()
     {
         str = "\tJ\ta\tv\ta\t";
-        System.out.println("7. What is the output of the following String: '" + str + "' after you trim it?");
+        System.out.println("7. What is the output of the following String: '\\tJ\\ta\\tv\\ta\\t' after you trim it?");
         str = str.trim();
         System.out.println(str);
     }
