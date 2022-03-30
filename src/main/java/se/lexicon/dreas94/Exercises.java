@@ -1,6 +1,6 @@
 package se.lexicon.dreas94;
 
-import java.util.Locale;
+import java.util.Arrays;
 
 public class Exercises
 {
@@ -72,5 +72,15 @@ public class Exercises
         System.out.println("8. Parse the following int: " + num + " to a String and add a 20 to the end of the String." +
                 " Printing it out should return: '2020'.");
         System.out.println(str + "\n");
+    }
+
+    public void exercise9()
+    {
+        str = "Oil and Water";
+        str = str.replace(" and ", "@");
+        String[] strArr = str.split("@", 2);
+        System.out.println("8. Oil and water don't go well together. Given the String: 'Oil and Water', " +
+                "split them up into the words 'Oil','Water' and store them in a String array.");
+        System.out.println(Arrays.toString(strArr) + "\n");
     }
 }
