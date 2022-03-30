@@ -5,6 +5,7 @@ public class App
     public static void main( String[] args )
     {
         Exercises ex = new Exercises();
+        ex.Introduction();
         ex.exercise1();
         ex.exercise2();
         ex.exercise3();

@@ -11,6 +11,12 @@ public class Exercises
         System.out.print("---------------------------------------------------------------------------\n");
     }
 
+    public void Introduction()
+    {
+        System.out.println("Welcome to my attempt at Exercise 1-12 for Strings week 2. Enjoy!");
+        printDivider();
+    }
+
     public void exercise1()
     {
         str = "Java";
