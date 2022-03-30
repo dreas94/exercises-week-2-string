@@ -45,7 +45,15 @@ public class Exercises
         System.out.println(str + "\n");
     }
 
-    public void exercise6()
+    public void exercise7()
+    {
+        str = "\tJ\ta\tv\ta\t";
+        System.out.println("6. What is the output of the following String: '" + str + "' after you trim it?");
+        str = str.trim();
+        System.out.println(str);
+    }
+
+    public void exercise8()
     {
         str = "\tJ\ta\tv\ta\t";
         System.out.println("6. What is the output of the following String: '" + str + "' after you trim it?");

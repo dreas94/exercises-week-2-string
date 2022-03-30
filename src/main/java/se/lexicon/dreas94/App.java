@@ -11,9 +11,9 @@ public class App
         ex.exercise3();
         ex.exercise4();
         ex.exercise5();
-        ex.exercise6();
-        //ex.exercise7();
-        //ex.exercise8();
+        //ex.exercise6();
+        ex.exercise7();
+        ex.exercise8();
         //ex.exercise9();
         //ex.exercise10();
         //ex.exercise11();
