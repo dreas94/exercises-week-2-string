@@ -66,6 +66,11 @@ public class Exercises
 
     public void exercise8()
     {
-
+        int num = 20;
+        str = Integer.toString(20);
+        str += "20";
+        System.out.println("8. Parse the following int: " + num + " to a String and add a 20 to the end of the String." +
+                " Printing it out should return: '2020'.");
+        System.out.println(str + "\n");
     }
 }
