@@ -97,4 +97,17 @@ public class Exercises
         System.out.println(Arrays.toString(strArr));
         printDivider();
     }
+
+    public void exercise10()
+    {
+        str = "Carl,Susie,Fredrick,Bob,Erik";
+        String[] strArr = str.split(",", 0);
+        System.out.println("10. Split the following String: 'Carl,Susie,Fredrick,Bob,Erik' into an array." +
+                " Print out all names separately.");
+
+        for(String str : strArr)
+            System.out.println(str);
+
+        printDivider();
+    }
 }
