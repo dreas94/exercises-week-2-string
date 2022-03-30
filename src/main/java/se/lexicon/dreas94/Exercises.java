@@ -17,7 +17,7 @@ public class Exercises
     {
         str = "Long example sentence";
         System.out.println("2. What char is at index position 6 in the following String: '" + str + "' ?");
-        System.out.println("Answer: " + str.charAt(6) + "\n");
+        System.out.println(str.charAt(6) + "\n");
     }
 
     public void exercise3()
