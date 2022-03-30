@@ -5,7 +5,6 @@ public class App
     public static void main( String[] args )
     {
         Exercises ex = new Exercises();
-
         ex.exercise1();
         ex.exercise2();
         ex.exercise3();
@@ -17,7 +16,7 @@ public class App
         ex.exercise9();
         ex.exercise10();
         ex.exercise11();
-        //ex.exercise12();
+        ex.exercise12();
     }
 }
 

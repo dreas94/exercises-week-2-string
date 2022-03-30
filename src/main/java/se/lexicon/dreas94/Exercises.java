@@ -123,4 +123,15 @@ public class Exercises
 
         printDivider();
     }
+
+    public void exercise12()
+    {
+        char[] chArr = new char[]{'J','a','v','a'};
+        str = String.valueOf(chArr);
+        System.out.println("11. Convert the following char[]: {'J','a','v','a'} to a String and print it out.");
+
+        System.out.println(str);
+
+        printDivider();
+    }
 }
