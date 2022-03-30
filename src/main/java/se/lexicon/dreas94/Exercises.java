@@ -32,7 +32,7 @@ public class Exercises
         str = "Ok this is not as long!";
         System.out.println("4. Given the following String: '" + str + "' create a substring of only 'not as long' (excluding the exclamation point) and print it out.");
         String subStr = str.substring(11,22);
-        System.out.println("Answer: " + subStr + "\n");
+        System.out.println(subStr + "\n");
     }
 
     public void exercise5()
