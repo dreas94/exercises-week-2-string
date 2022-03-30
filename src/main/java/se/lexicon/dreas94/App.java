@@ -16,7 +16,7 @@ public class App
         ex.exercise8();
         ex.exercise9();
         ex.exercise10();
-        //ex.exercise11();
+        ex.exercise11();
         //ex.exercise12();
     }
 }

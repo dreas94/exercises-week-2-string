@@ -110,4 +110,17 @@ public class Exercises
 
         printDivider();
     }
+
+    public void exercise11()
+    {
+        str = "ThisShouldBeConverted";
+        char[] chArr = str.toCharArray();
+        System.out.println("11. Convert the following String: 'ThisShouldBeConverted' to a char array. " +
+                "Iterate through the char array and print out each element.");
+
+        for(char ch : chArr)
+            System.out.println(ch);
+
+        printDivider();
+    }
 }
