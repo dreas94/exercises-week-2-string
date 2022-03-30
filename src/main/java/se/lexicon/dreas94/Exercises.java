@@ -44,4 +44,12 @@ public class Exercises
         str = str.toUpperCase();
         System.out.println(str + "\n");
     }
+
+    public void exercise6()
+    {
+        str = "\tJ\ta\tv\ta\t";
+        System.out.println("6. What is the output of the following String: '" + str + "' after you trim it?");
+        str = str.trim();
+        System.out.println(str);
+    }
 }
