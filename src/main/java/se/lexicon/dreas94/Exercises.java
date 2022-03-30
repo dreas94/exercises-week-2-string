@@ -24,7 +24,7 @@ public class Exercises
     {
         str = "Even longer example sentence";
         System.out.println("3. What is the index position of 'o' in the following String: '" + str + "' ?");
-        System.out.println("Answer: " + str.indexOf("o") + "\n");
+        System.out.println(str.indexOf("o") + "\n");
     }
 
     public void exercise4()
