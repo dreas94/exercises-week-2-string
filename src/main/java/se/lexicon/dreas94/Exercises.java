@@ -47,6 +47,15 @@ public class Exercises
         System.out.println(str + "\n");
     }
 
+    public void exercise6()
+    {
+        str = "Java is the worst programming language!";
+        System.out.println("6. Correct the following String: '" + str + "' by replacing the (obviously incorrect) word 'worst'" +
+                " with the word 'best'. Then print out the sentence.");
+        str = str.replace("worst", "best");
+        System.out.println(str + "\n");
+    }
+
     public void exercise7()
     {
         str = "\tJ\ta\tv\ta\t";
