@@ -24,4 +24,12 @@ public class Exercises
         System.out.println("3. What is the index position of 'o' in the following String: '" + str + "' ?");
         System.out.println("Answer: " + str.indexOf("o") + "\n");
     }
+
+    public void exercise4()
+    {
+        str = "Ok this is not as long!";
+        System.out.println("4. Given the following String: '" + str + "' create a substring of only 'not as long' (excluding the exclamation point) and print it out.");
+        String subStr = str.substring(11,22);
+        System.out.println("Answer: " + subStr + "\n");
+    }
 }
