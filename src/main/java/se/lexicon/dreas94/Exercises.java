@@ -10,7 +10,7 @@ public class Exercises
     {
         str = "Java";
         System.out.println("1. What is the length of the String: '" + str + "' ?");
-        System.out.println("Answer: " + str.length() + "\n");
+        System.out.println(str.length() + "\n");
     }
 
     public void exercise2()
