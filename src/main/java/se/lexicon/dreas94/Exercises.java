@@ -30,7 +30,8 @@ public class Exercises
     public void exercise4()
     {
         str = "Ok this is not as long!";
-        System.out.println("4. Given the following String: '" + str + "' create a substring of only 'not as long' (excluding the exclamation point) and print it out.");
+        System.out.println("4. Given the following String: '" + str + "' create a substring of only 'not as long'" +
+                " (excluding the exclamation point) and print it out.");
         String subStr = str.substring(11,22);
         System.out.println(subStr + "\n");
     }
@@ -38,7 +39,8 @@ public class Exercises
     public void exercise5()
     {
         str = "CAPS EQUALS SCREAMING";
-        System.out.println("5. Convert the following String: '" + str + "' to lowercase and print it out. Then convert it back to uppercase and print it out again");
+        System.out.println("5. Convert the following String: '" + str + "' to lowercase and print it out. " +
+                "Then convert it back to uppercase and print it out again");
         str = str.toLowerCase();
         System.out.println(str);
         str = str.toUpperCase();
