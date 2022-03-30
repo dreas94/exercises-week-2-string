@@ -1,5 +1,7 @@
 package se.lexicon.dreas94;
 
+import java.util.Locale;
+
 public class Exercises
 {
     private String str = "";
@@ -31,5 +33,15 @@ public class Exercises
         System.out.println("4. Given the following String: '" + str + "' create a substring of only 'not as long' (excluding the exclamation point) and print it out.");
         String subStr = str.substring(11,22);
         System.out.println("Answer: " + subStr + "\n");
+    }
+
+    public void exercise5()
+    {
+        str = "CAPS EQUALS SCREAMING";
+        System.out.println("5. Convert the following String: '" + str + "' to lowercase and print it out. Then convert it back to uppercase and print it out again");
+        str = str.toLowerCase();
+        System.out.println(str);
+        str = str.toUpperCase();
+        System.out.println(str + "\n");
     }
 }
